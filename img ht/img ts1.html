@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T - Shirt Collection</title>
+    <Style>
+        body{
+    padding: 0;
+    margin:0;
+}
+.logo{
+    width:80px;
+}
+header{
+    background-color:rgb(2,2,99);
+    height:90px;
+    padding: 5px;
+    display: flex;
+
+}
+h1{
+    margin-top:30px;
+    margin-left: 10px;
+}
+ul{
+    margin-top:3%;
+    margin-left:55%;
+    list-style-type: none;
+    color:white;
+}
+li{
+    display: inline;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    cursor: pointer;
+}
+        .fs1{
+            height: 500px;
+            padding: 5px;
+            border: 1px solid;
+            border-color: gray;
+            margin: 2%;
+          
+        }
+        .product1{
+          display: flex;
+          justify-content: space-between;
+          text-align: center;
+          padding: 10px;
+          gap:30px;
+        }
+        .p1{
+            height: 500px;
+            margin: 3%;
+            padding-right: 30px;
+            margin-right: 30%;
+            display: flex;
+            /* border: 2px solid; */
+            /* border-color: black; */
+            display: block;
+           
+        }
+        .but1{
+            text-align: center;
+            display: block;
+            margin-top: 10%;
+            border-radius: 30px;
+            
+        }
+        
+
+       
+    </Style>
+</head>
+<body>
+        <header>
+        <img src="../images (1).png" alt="Allen solly logo" class="logo"><h1 style="color: whitesmoke;">Allen Solly</h1>
+        <ul>
+            <li>Home</li>
+            <li>Collections</li>
+            <li>New Arrivals</li>
+            <li>Contact</li>
+        </ul>
+   </header>
+   <div class="product1">
+    <img src="../ts 1.jpg" class="fs1">
+
+
+   <div class="p1">
+        <h2 style="text-align: left;">T - Shirt</h2>
+        <p>Men Black Solid Polo Neck T-shirt</p>
+         <p style="text-align: left;"><del style="color: red;">MRP:1,999/-</del></p>
+         <p style="text-align: left;">MRP:1,399/-</p>
+         <label>SIZE:</label>
+         <select>
+            <Option>38</Option>
+            <Option>39</Option>
+            <Option>40</Option>
+            <Option>42</Option>
+            <Option>44</Option>
+            <Option>46</Option>
+       </select>
+       <div class="but1">
+       <!-- <button style="padding: 10px;width: 80%;border: 2px solid;border-radius: 30px;background-color: rgb(2,2,99);color:whitesmoke;">Buy Now</button> -->
+        <button style="padding: 10px; width: 80%; border: 2px solid; border-radius: 30px; background-color: rgb(2,2,99); color: whitesmoke; transition: 0.3s;"onmouseover="this.style.backgroundColor='white'; this.style.color='rgb(2,2,99)';" onmouseout="this.style.backgroundColor='rgb(2,2,99)'; this.style.color='whitesmoke';">Buy Now</button>
+       </div>
+
+   </div>
+   
+    </div>
+<script src="../script.js"></script>
+
+</body>
+</html>
