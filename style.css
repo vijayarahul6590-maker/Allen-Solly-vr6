@@ -45,7 +45,7 @@ a:hover{
 #Product1, #Product2, #Product3{
     /*  */
     margin: 10px;
-    width: 50px;
+    width: 100%;
     display: flex;
     /* justify-content: space-around; */
     justify-content: center;
