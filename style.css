@@ -82,12 +82,12 @@ a:hover{
     box-shadow: 5px 5px 5px rgb(2, 2, 99);
 }
 
-#Product2{
+/* #Product2{
     width:50px;
     margin:10px;
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .pro2{
     text-align: center;
@@ -115,12 +115,12 @@ a:hover{
     box-shadow: 5px 5px 5px rgb(2, 2, 99);
 
 }
-#Product3{
+/* #Product3{
     width: 50px;
     margin: 10px;
     display: flex;
     justify-content: space-around;
-}
+} */
 .pro3{
     padding: 5px;
     margin:5px;
